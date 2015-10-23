@@ -13,6 +13,9 @@ Yes also for making music.
 
 I'm very happy for ideas about my plugins as well as joining me to push my projects forward.
 
+There will be an [RSS](/feed.xml) feed soon and some blog entries.
+
+
 </div></div>
 
 <div class="content-two" ><div class="content" markdown='1'>
@@ -32,16 +35,16 @@ I wrote a Step-Sequencer using the Launchpad and Renoise.
 </div>
 
 <div class="block-links pure-g">
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-4">
   <a class="button pure-button" href="http://mrvandalo.github.io/stepp0r/"> <i class="fa fa-file-o fa-lg"></i> page</a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-4">
   <a class="button pure-button" href="http://www.renoise.com/tools/stepp0r"> <i class="fa fa-download fa-lg"></i> download </a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-4">
   <a class="button pure-button" href="https://github.com/mrVanDalo/stepp0r"> <i class="fa fa-github fa-lg"></i> source </a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-4">
   <a class="button pure-button" href="http://forum.renoise.com/index.php/topic/42907-new-tool-30-stepp0r-launchpad-step-sequencer/"> <i class="fa fa-users fa-lg"></i> forum </a>
  </div>
 </div>
@@ -60,13 +63,13 @@ A small (not finished) tool for Renoise to feedback changes to MIDI controller l
 </div>
 
 <div class="block-links pure-g">
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-3">
   <a class="button pure-button" href="http://mrvandalo.github.io/midi-respons0r/"> <i class="fa fa-file-o fa-lg"></i> page</a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-3">
   <a class="button pure-button" href="https://github.com/mrVanDalo/midi-respons0r"> <i class="fa fa-github fa-lg"></i> source </a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-1 pure-u-md-1-1">
+ <div class="pure-u-1 pure-u-sm-1-1 pure-u-md-1-1 pure-u-xl-1-3">
   <a class="button pure-button" href="http://forum.renoise.com/index.php/topic/45201-new-tool-30-midi-respons0r-midi-feedback/"> <i class="fa fa-users fa-lg"></i> forum </a>
  </div>
 </div>
@@ -90,13 +93,13 @@ This gives me the possibility to brutaly delete packages and be very rough to it
 It also gives me the possibility to enforce my securty concepts.
 
 <div class="block-links pure-g">
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-3">
   <a class="button pure-button" href="http://mydistro.github.io/"><i class="fa fa-file-o fa-lg"></i> page</a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2">
+ <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-xl-1-3">
   <a class="button pure-button" href="https://forge.puppetlabs.com/myDistro"><i class="fa fa-server fa-lg"></i> puppet forge </a>
  </div>
- <div class="pure-u-1 pure-u-sm-1-1 pure-u-md-1-1">
+ <div class="pure-u-1 pure-u-sm-1-1 pure-u-md-1-1 pure-u-xl-1-3">
   <a class="button pure-button" href="https://github.com/myDistro"> <i class="fa fa-github fa-lg"></i> github </a>
  </div>
 </div>
