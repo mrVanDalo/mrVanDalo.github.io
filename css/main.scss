@@ -1,0 +1,164 @@
+---
+# need to be here
+---
+
+
+
+$color-1-txt: white;
+$color-1-bg: black;
+$color-1-link-txt: white;
+$color-1-link-txt-hover: black;
+$color-1-link-bg: black;
+$color-1-link-bg-hover: white;
+$color-1-btn-txt: white;
+$color-1-btn-bg: black;
+$color-1-btn-border: white;
+
+$color-2-txt: black;
+$color-2-bg: white;
+$color-2-link-txt: black;
+$color-2-link-txt-hover: white;
+$color-2-link-bg: white;
+$color-2-link-bg-hover: black;
+$color-2-btn-txt: black;
+$color-2-btn-bg: white;
+$color-2-btn-border: black;
+
+
+body {
+    background-color: #dbdbd5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:110%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+a.pure-button {
+    font-family: 'Exo', sans-serif;
+}
+
+a:link,
+a:visited {
+    color: #A55030;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    width: 100%;
+    border: .1em solid #5c3126;
+}
+
+.pure-g {
+    div {
+        box-sizing: border-box;
+    }
+}
+
+.content {
+
+    padding: 1em 0 1em 0;
+    margin: 0 .3em 0 .3em;
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+}
+
+.block-feature {
+
+    max-width: 26em;
+    margin: auto;
+
+}
+
+.block-text {
+    padding: 0 .8em 0 .8em;
+}
+
+.block-links {
+
+    .pure-u-1 {
+        padding: .2em .2em .2em .2em;
+    }
+
+}
+
+
+.content-one {
+
+    color: $color-1-txt;
+    background-color: $color-1-bg;
+
+    .button {
+        color: $color-1-btn-txt;
+        background-color: $color-1-btn-bg;
+        border-color: $color-1-btn-border;
+    }
+
+    a:link,
+    a:visited {
+        color: $color-1-link-txt;
+        background-color: $color-1-link-bg;
+    }
+
+    a:hover,
+    a:active {
+        color: $color-1-link-txt-hover;
+        background-color: $color-1-link-bg-hover;
+    }
+
+}
+
+
+.content-two {
+
+    color: $color-2-txt;
+    background-color: $color-2-bg;
+
+    .button {
+        color: $color-2-btn-txt;
+        background-color: $color-2-btn-bg;
+        border-color: $color-2-btn-border;
+    }
+
+    a:link,
+    a:visited {
+        color: $color-2-link-txt;
+        background-color: $color-2-link-bg;
+    }
+
+    a:hover,
+    a:active {
+        color: $color-2-link-txt-hover;
+        background-color: $color-2-link-bg-hover;
+    }
+
+}
+
+
+
+
+/* ---------- media query ---------- */
+
+/* md */
+@media screen and (min-width: 48em) {
+    .content {
+        max-width: 35em;
+        margin:auto;
+    }
+}
+
+
+/* sm */
+@media screen and (min-width: 35.5em) {
+}
