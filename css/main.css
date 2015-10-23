@@ -29,64 +29,85 @@ a:hover, a:active {
 }
 
 .button {
-    background-color: #d3ca19;
+    width: 100%;
     border: 1px solid #5c3126;
 }
 
-.block-links > .button {
-    width: 100%;
-    margin: .2em 0 0 0;
-}
-
-
-.pure-g > div {
+.pure-g div {
     box-sizing: border-box;
 }
-
 
 .content {
     padding: 1em 0 1em 0;
     margin: 0 .3em 0 .3em;
 }
 
-.content > h1 {
+.content  h1 {
     text-align: center;
-}
-
-.content-one {
-    background-color: #8aadbf;
-}
-
-.content-two {
-    background-color: #d7d8a9;
 }
 
 .block-feature {
     padding: 0 .8em 0 .8em;
-    background-color: #d3ca19;
-    border: 1px solid #5c3126;
+}
+
+.block-feature ul {
+    margin-top: 0;
 }
 
 .block-text {
     padding: 0 .8em 0 .8em;
 }
 
+.block-links .pure-u-1 {
+    padding: .2em .2em .2em .2em;
+}
+
+/* ---------- content one ---------- */
+
+.content-one {
+    background-color: #5475D6;
+}
+
+.content-one .button {
+    background-color: #d3ca19;
+}
+
+
+/* ---------- content two ---------- */
+
+
+.content-two {
+    background-color: #261E00;
+    color: white;
+}
+
+.content-two .button {
+    background-color: #CCFF99;
+}
+
+.content-two a:link, 
+.content-two a:visited {
+    color: black;
+}
+
+.content-two a:hover, 
+.content-two a:active {
+    color: #A55030;
+}
 
 
 
+/* ---------- media query ---------- */
 
-
+/* md */
 @media screen and (min-width: 48em) {
     .content {
         max-width: 35em;
         margin:auto;
     }
-    .block-links {
-        padding: 0 2em 0 2em;
-    }
-    .block-links > .button {
-        margin: .1em .1em .1em .1em;
-    }
 }
 
 
+/* sm */
+@media screen and (min-width: 35.5em) {
+}
