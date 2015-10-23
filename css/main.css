@@ -14,12 +14,46 @@ h1, h2, h3, h4, h5, h6, a, a.pure-button {
     font-family: 'Exo', sans-serif;
 }
 
+/* unvisited link */
+/* visited link */
+a:link, a:visited {
+    color: #A55030;
+    text-decoration: none;
+}
 
+/* mouse over link */
+/* selected link */
+a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #d3ca19;
+    border: 1px solid #5c3126;
+}
+
+.block-links > .button {
+    width: 100%;
+    margin: .1em .1em .1em .1em;
+}
+
+.block-links {
+    padding: 0 2em 0 2em;
+}
+
+.pure-g > div {
+    box-sizing: border-box;
+}
 
 
 .content {
     padding: 1em 0 1em 0;
     margin: 0 .3em 0 .3em;
+}
+
+.content > h1 {
+    text-align: center;
 }
 
 .content-one {
@@ -28,6 +62,16 @@ h1, h2, h3, h4, h5, h6, a, a.pure-button {
 
 .content-two {
     background-color: #d7d8a9;
+}
+
+.block-feature {
+    padding: 0 .8em 0 .8em;
+    background-color: #d3ca19;
+    border: 1px solid #5c3126;
+}
+
+.block-text {
+    padding: 0 .8em 0 .8em;
 }
 
 
