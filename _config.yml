@@ -1,0 +1,12 @@
+# Site settings
+title: Palo van Dalo
+email: palo_van_dalo@gmx.de 
+description: > # this means to ignore newlines until "baseurl:"
+    Hier mein kram
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mrVanDalo.github.io" # the base hostname & protocol for your site
+twitter_username: mr_van_dalo
+github_username:  mr_van_dalo
+
+# Build settings
+markdown: kramdown

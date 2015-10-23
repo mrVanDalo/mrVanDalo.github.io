@@ -1,0 +1,45 @@
+
+
+
+
+
+
+body {
+    background-color: #dbdbd5;
+    font-family: 'Open Sans', sans-serif;
+    font-size:110%;
+}
+
+h1, h2, h3, h4, h5, h6, a, a.pure-button {
+    font-family: 'Exo', sans-serif;
+}
+
+
+
+
+.content {
+    padding: 1em 0 1em 0;
+    margin: 0 .3em 0 .3em;
+}
+
+.content-one {
+    background-color: #dbdbd5;
+}
+
+.content-two {
+    background-color: #827633;
+}
+
+
+
+
+
+
+@media screen and (min-width: 40em) {
+    .content {
+        max-width: 35em;
+        margin:auto;
+    }
+}
+
+
