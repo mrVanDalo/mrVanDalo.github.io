@@ -35,12 +35,9 @@ a:hover, a:active {
 
 .block-links > .button {
     width: 100%;
-    margin: .1em .1em .1em .1em;
+    margin: .2em 0 0 0;
 }
 
-.block-links {
-    padding: 0 2em 0 2em;
-}
 
 .pure-g > div {
     box-sizing: border-box;
@@ -79,10 +76,16 @@ a:hover, a:active {
 
 
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 48em) {
     .content {
         max-width: 35em;
         margin:auto;
+    }
+    .block-links {
+        padding: 0 2em 0 2em;
+    }
+    .block-links > .button {
+        margin: .1em .1em .1em .1em;
     }
 }
 
