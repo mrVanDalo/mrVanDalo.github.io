@@ -3,26 +3,34 @@
 ---
 
 
+$color-link-txt: #E65C00;
+$color-link-txt-hover: black;
 
 $color-1-txt: white;
 $color-1-bg: black;
-$color-1-link-txt: white;
-$color-1-link-txt-hover: black;
+$color-1-link-txt: #E65C00;
+$color-1-link-txt-hover: white;
 $color-1-link-bg: black;
-$color-1-link-bg-hover: white;
+$color-1-link-bg-hover: black;
 $color-1-btn-txt: white;
+$color-1-btn-txt-hover: black;
 $color-1-btn-bg: black;
+$color-1-btn-bg-hover: white;
 $color-1-btn-border: white;
+$color-1-btn-border-hover: white;
 
 $color-2-txt: black;
 $color-2-bg: white;
-$color-2-link-txt: black;
-$color-2-link-txt-hover: white;
+$color-2-link-txt: #E65C00;
+$color-2-link-txt-hover: black;
 $color-2-link-bg: white;
-$color-2-link-bg-hover: black;
+$color-2-link-bg-hover: white;
 $color-2-btn-txt: black;
+$color-2-btn-txt-hover: white;
 $color-2-btn-bg: white;
+$color-2-btn-bg-hover: black;
 $color-2-btn-border: black;
+$color-2-btn-border-hover: black;
 
 
 body {
@@ -99,10 +107,18 @@ a:active {
     color: $color-1-txt;
     background-color: $color-1-bg;
 
-    .button {
+    a.button:link,
+    a.button:visited {
         color: $color-1-btn-txt;
         background-color: $color-1-btn-bg;
         border-color: $color-1-btn-border;
+    }
+
+    a.button:hover,
+    a.button:active {
+        color: $color-1-btn-txt-hover;
+        background-color: $color-1-btn-bg-hover;
+        border-color: $color-1-btn-border-hover;
     }
 
     a:link,
@@ -125,10 +141,18 @@ a:active {
     color: $color-2-txt;
     background-color: $color-2-bg;
 
-    .button {
+    a.button:link,
+    a.button:visited {
         color: $color-2-btn-txt;
         background-color: $color-2-btn-bg;
         border-color: $color-2-btn-border;
+    }
+
+    a.button:hover,
+    a.button:active {
+        color: $color-2-btn-txt-hover;
+        background-color: $color-2-btn-bg-hover;
+        border-color: $color-2-btn-border-hover;
     }
 
     a:link,

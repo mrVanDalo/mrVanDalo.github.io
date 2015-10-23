@@ -9,7 +9,7 @@ I'm a mathematician, programmer and musician.
 
 My DAW of choice is [Renoise](http://www.renoise.com).
 [Linux](https://en.wikipedia.org/wiki/Linux) is my OS of choice.
-Yes also for music making.
+Yes also for making music.
 
 I'm very happy for ideas about my plugins as well as joining me to push my projects forward.
 
