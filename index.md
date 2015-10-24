@@ -13,8 +13,15 @@ Yes also for making music.
 
 I'm very happy for ideas about my plugins as well as joining me to push my projects forward.
 
-There will be an [RSS](/feed.xml) feed soon and some blog entries.
+Right now I'm working on creating some [RSS](/feed.xml) feed blog entries.
 
+<div class="block-subscribe">
+<a href="https://www.facebook.com/palovandalosource"><i class="fa fa-facebook-official fa-4x"></i></a>
+<a href="https://twitter.com/mr_van_dalo"><i class="fa fa-twitter fa-4x"></i></a>
+<a href="/feed.xml"><i class="fa fa-rss fa-4x"></i></a>
+<a href="https://www.youtube.com/user/palipalo9"><i class="fa fa-youtube-play fa-4x"></i></a>
+<a href="https://soundcloud.com/palo-van-dalo"><i class="fa fa-soundcloud fa-4x"></i></a>
+</div>
 
 </div></div>
 

@@ -66,6 +66,7 @@ a:active {
     border: .1em solid #5c3126;
 }
 
+
 .pure-g {
     div {
         box-sizing: border-box;
@@ -79,6 +80,17 @@ a:active {
 
     h1, h2, h3 {
         text-align: center;
+    }
+}
+
+.block-subscribe {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    text-align: center;
+
+    i {
+        margin-left: .1em;
+        margin-right: .1em;
     }
 }
 
