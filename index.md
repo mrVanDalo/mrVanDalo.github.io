@@ -16,11 +16,12 @@ I'm very happy for ideas about my plugins as well as joining me to push my proje
 Right now I'm working on creating some [RSS](/feed.xml) feed blog entries.
 
 <div class="block-subscribe">
-<a href="https://www.facebook.com/palovandalosource"><i class="fa fa-facebook-official fa-4x"></i></a>
-<a href="https://twitter.com/mr_van_dalo"><i class="fa fa-twitter fa-4x"></i></a>
-<a href="/feed.xml"><i class="fa fa-rss fa-4x"></i></a>
-<a href="https://www.youtube.com/user/palipalo9"><i class="fa fa-youtube-play fa-4x"></i></a>
-<a href="https://soundcloud.com/palo-van-dalo"><i class="fa fa-soundcloud fa-4x"></i></a>
+<a href="https://www.facebook.com/palovandalosource"><i class="fa fa-facebook-official fa-3x"></i></a>
+<a href="https://twitter.com/mr_van_dalo"><i class="fa fa-twitter fa-3x"></i></a>
+<a href="/feed.xml"><i class="fa fa-rss fa-3x"></i></a>
+<a href="https://www.youtube.com/user/palipalo9"><i class="fa fa-youtube-play fa-3x"></i></a>
+<a href="https://soundcloud.com/palo-van-dalo"><i class="fa fa-soundcloud fa-3x"></i></a>
+<a href="https://github.com/mrVanDalo/"><i class="fa fa-github fa-3x"></i></a>
 </div>
 
 </div></div>
