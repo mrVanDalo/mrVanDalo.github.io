@@ -6,7 +6,6 @@ layout: default
 # Palo van Dalo
 
 I'm a mathematician, programmer and musician.
-
 My DAW of choice is [Renoise](http://www.renoise.com).
 [Linux](https://en.wikipedia.org/wiki/Linux) is my OS of choice.
 Yes also for making music.
