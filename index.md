@@ -10,7 +10,6 @@ I'm a mathematician, programmer and musician.
 My DAW of choice is [Renoise](http://www.renoise.com).
 [Linux](https://en.wikipedia.org/wiki/Linux) is my OS of choice.
 Yes also for making music.
-
 I'm very happy for ideas about my plugins as well as joining me to push my projects forward.
 
 Right now I'm working on creating some [RSS](/feed.xml) feed blog entries.
@@ -88,12 +87,11 @@ A small (not finished) tool for Renoise to feedback changes to MIDI controller l
 <div class="content-two" ><div class="content" markdown='1'>
 # Mydistro
 
-A project to admin you computer using puppet.
+A project to admin your desktop computer using puppet.
 
 I use funtoo to have always very new software.
 It's also a very useful distro when it comes down to create your own packages and mangage them in overlays.
-
-But with brand new software you have to always the trouble to with dependencies and other shenanigans.
+But with brand new software you have always trouble with dependencies and other shenanigans.
 The Funtoo and Gentoo tools do a good job in solving these issues, but sometimes you lose a lot of time with small problems.
 Because of this I configured my system using puppet.
 This gives me the possibility to brutaly delete packages and be very rough to it, and can be sure that after I've run puppet everything should be fine again.
