@@ -2,45 +2,51 @@
 # need to be here
 ---
 
-$bright_color: #E5E5FF;
-$dark_color: #00001A;
+$bright_color: #FFFFE5;
+$dark_color: #3399FF;
+$link_color: #801A00;
 
-
-$color-link-txt: #E65C00;
+$color-link-txt: $link_color;
 $color-link-txt-hover: $dark_color;
 
-$color-1-txt: $bright_color;
+$color-1-txt: black;
 $color-1-bg:  $dark_color;
-$color-1-link-txt: #E65C00;
+$color-1-bg-less: $dark_color;
+$color-1-link-txt: $link_color;
 $color-1-link-txt-hover: $bright_color;
 $color-1-link-bg: $dark_color;
 $color-1-link-bg-hover: $dark_color;
-$color-1-btn-txt: $bright_color;
-$color-1-btn-txt-hover: $dark_color;
+$color-1-btn-txt: black;
+$color-1-btn-txt-hover: black;
 $color-1-btn-bg: $dark_color;
 $color-1-btn-bg-hover: $bright_color;
-$color-1-btn-border: $bright_color;
+$color-1-btn-border: black;
 $color-1-btn-border-hover: $bright_color;
 
 
-$color-2-txt: $dark_color;
+$color-2-txt: black;
 $color-2-bg: $bright_color;
-$color-2-link-txt: #E65C00;
+$color-2-bg-less: $bright_color;
+$color-2-link-txt: $link_color;
 $color-2-link-txt-hover: $dark_color;
 $color-2-link-bg: $bright_color;
 $color-2-link-bg-hover: $bright_color;
-$color-2-btn-txt: $dark_color;
+$color-2-btn-txt: black;
 $color-2-btn-txt-hover: $bright_color;
 $color-2-btn-bg: $bright_color;
 $color-2-btn-bg-hover: $dark_color;
-$color-2-btn-border: $dark_color;
+$color-2-btn-border: black;
 $color-2-btn-border-hover: $dark_color;
 
 
 body {
-    background-color: #dbdbd5;
+    background-color: $dark_color;
     font-family: 'Open Sans', sans-serif;
     font-size:110%;
+    padding: 2em 0 5em 0;
+    h1 {
+        font-size: 3em;
+    }
 }
 
 h1,
@@ -84,7 +90,7 @@ a:active {
 
 .content {
 
-    padding: 1em 0 1em 0;
+    padding: 2em 0 3em 0;
     margin: 0 .3em 0 .3em;
 
     h1, h2, h3 {
@@ -126,7 +132,11 @@ a:active {
 .content-one {
 
     color: $color-1-txt;
-    background-color: $color-1-bg;
+    background-color: $color-1-bg-less;
+
+    .content {
+        background-color: $color-1-bg;
+    }
 
     a.button:link,
     a.button:visited {
@@ -160,7 +170,11 @@ a:active {
 .content-two {
 
     color: $color-2-txt;
-    background-color: $color-2-bg;
+    background-color: $color-2-bg-less;
+
+    .content {
+        background-color: $color-2-bg;
+    }
 
     a.button:link,
     a.button:visited {
