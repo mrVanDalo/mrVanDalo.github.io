@@ -8,10 +8,13 @@ layout: default
 I'm a mathematician, programmer and musician.
 My DAW of choice is [Renoise](http://www.renoise.com).
 [Linux](https://en.wikipedia.org/wiki/Linux) is my OS of choice.
-Yes also for making music.
-I'm very happy for ideas about my plugins as well as joining me to push my projects forward.
+Yes also for making music, which is my primary interest right now.
 
-Right now I'm working on creating some [RSS](/feed.xml) feed blog entries.
+This page is the central page which should connect all my projects. 
+All my profiles should link to this page and you should be able to reach all projects from here.
+
+If you like what I do, need help with one of my tools or want to help me, 
+you can choose the channel which suits you the most and contact me.
 
 <div class="block-subscribe">
 <a href="https://www.facebook.com/palovandalosource"><i class="fa fa-facebook-official fa-3x"></i></a>
@@ -27,17 +30,20 @@ Right now I'm working on creating some [RSS](/feed.xml) feed blog entries.
 <div class="content-two" ><div class="content" markdown='1'>
 # Stepp0r
 
-You have a Launchpad? 
-And you use Renoise? 
-Or you like Step-Sequencing? 
+You have a Launchpad, you use [Renoise](http://www.renoise.com) and you like Step-Sequencing? 
 Well you're lucky!
-I wrote a Step-Sequencer using the Launchpad and Renoise.
+I wrote a Step-Sequencer using the Launchpad and [Renoise](http://www.renoise.com).
+It also has feature which let you work similar to abelton live.
+This tool is still work in progress but it has reached a version you should not have problems using it, 
+but there are some more features to come.
+
+I'm always open on ideas and help on this project.
 
 ###Features
 <div class="block-feature" markdown='1'>
-* Step-Sequencing
-* Pattern Arrangment
-* Copy Paste
+* step-sequencing including effects (vel, pan, del)
+* arrangement and Live composing of patterns
+* copy paste for pattern and sequences
 </div>
 
 <div class="block-links pure-g">
@@ -61,11 +67,18 @@ I wrote a Step-Sequencer using the Launchpad and Renoise.
 <div class="content-one" ><div class="content" markdown='1'>
 # MIDI Respons0r
 
-A small (not finished) tool for Renoise to feedback changes to MIDI controller like the BCR or BCF.
+A small (not finished) tool for [Renoise](http://www.renoise.com) to feedback changes to MIDI controller like the BCR or BCF.
+Changes inside [Renoise](http://www.renoise.com) will be synchronized to your MIDI controller.
+On the page I also store my overlays of my BCR.
+You can print and cut them to control your plugins.
+Of course this is not restricted [Renoise](http://www.renoise.com), you can use it with every BCR and every DAW you like :D
+
+You are very welcome to send me your overlay, so other people can download it too.
 
 ###Features
 <div class="block-feature" markdown='1'>
 * Track DSP dump to MIDI Devices
+* BCR overlays for VSTi like OBXD or VEX.
 </div>
 
 <div class="block-links pure-g">
@@ -84,16 +97,16 @@ A small (not finished) tool for Renoise to feedback changes to MIDI controller l
 
 </div></div>
 <div class="content-two" ><div class="content" markdown='1'>
-# Mydistro
+# MyDistro
 
 A project to admin your desktop computer using puppet.
 
 I use funtoo to have always very new software.
-It's also a very useful distro when it comes down to create your own packages and mangage them in overlays.
+It's also a very useful distro when it comes down to create your own packages and manage them in overlays.
 But with brand new software you have always trouble with dependencies and other shenanigans.
 The Funtoo and Gentoo tools do a good job in solving these issues, but sometimes you lose a lot of time with small problems.
 Because of this I configured my system using puppet.
-This gives me the possibility to brutaly delete packages and be very rough to it, and can be sure that after I've run puppet everything should be fine again.
+This gives me the possibility to brutally delete packages and be very rough to it, and can be sure that after I've run puppet everything should be fine again.
 
 It also gives me the possibility to enforce my securty concepts.
 
