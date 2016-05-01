@@ -26,6 +26,20 @@ a.pure-button {
     border-color: #312600;
     margin-bottom: 3em; }
 
+.description {
+  text-align: left; }
+
+.block {
+  padding: .3em .2em .3em .2em;
+  box-sizing: border-box; }
+  .block .tracks {
+    text-align: left; }
+    .block .tracks ul {
+      padding: 0; }
+      .block .tracks ul li {
+        list-style-type: none;
+        margin: .5em 0 .5em 0; }
+
 .links {
   max-width: 20em;
   margin: auto; }
