@@ -14,7 +14,8 @@ a.pure-button {
   font-weight: bold; }
 
 .content {
-  text-align: center; }
+  text-align: center;
+  margin: 1em; }
 
 /* logo image */
 .logo-block {
@@ -35,7 +36,7 @@ a.pure-button {
   .block .tracks {
     text-align: left; }
     .block .tracks ul {
-      padding: 0; }
+      padding: 0 0 0 1em; }
       .block .tracks ul li {
         list-style-type: none;
         margin: .5em 0 .5em 0; }
